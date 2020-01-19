@@ -1,9 +1,12 @@
 package com.example.learn.base
 
+import android.view.View
+
 /**
  *
  * @author weitianliang
  */
-class BaseView {
+interface BaseView {
 
+    fun getView(): View
 }

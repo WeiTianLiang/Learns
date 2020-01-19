@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".DataBingTest.DataBingActivity"
+            android:name=".MainActivity"
             android:label="@string/title_activity_data_bing"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".DataBingTest.DataBingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
